@@ -17,7 +17,7 @@ class ClearedTable {
   constructor(data) {
     this.el = document.createElement('table');
     this.data = data;
-
+    
     const thead = document.createElement('thead');
     const tbody = document.createElement('tbody');
 
@@ -76,4 +76,5 @@ class ClearedTable {
   onRemoved(id) {}
 }
 
+const bookParent =
 window.ClearedTable = ClearedTable;
