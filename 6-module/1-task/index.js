@@ -17,6 +17,7 @@ class ClearedTable {
   constructor(data) {
     this.el = document.createElement('table');
     this.data = data;
+    
     const thead = document.createElement('thead');
     const tbody = document.createElement('tbody');
 
@@ -69,7 +70,7 @@ class ClearedTable {
   }
 
   /**
-   * Метод который вызывается после удалении строки
+   * Метод который выщывается после удалении строки
    * @param {number} id - идентификатор удаляемого пользователя
    */
   onRemoved(id) {}
